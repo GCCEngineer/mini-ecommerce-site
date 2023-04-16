@@ -7,7 +7,16 @@
 
 ### On your local workspace (Your Computer)
 1) Create a folder
-2) cd into your folder in `GitBash` CLI
+2) cd into your folder in `GitBash` CLI (You can right-click your working directory and click on GitBash Here to do this)
 3) Once in your folder type the following command
-   `git clone https://github.com/MabuzaM/mini-ecommerce-site.git` Replace this repository url with the one you coppied in number 3 above
+   `git clone https://github.com/<YOUR-GITHUB-NAME>/mini-ecommerce-site.git` Replace this <YOUR-GITHUB-NAME> with your GitHub Name
+4) You can now start working on the project and practise using the following commands
+    #### To add files in the staging area, making them ready for the next commit
+   Use the command:  `git add .`
+   
+   ####  To create a snapshot of what changes you have made before pushing them to the remote repository
+   Use the command: `git commit -m 'commit message'`
+   
+   #### To upload changes made in your local repository to the remote repository
+   Use the command: `git push origin master`
 
