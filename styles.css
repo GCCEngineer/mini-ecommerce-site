@@ -1,0 +1,25 @@
+.header{
+   background-color: #ffffff;
+   height: 20vh;
+}
+
+
+.nav_list{
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 16px;
+}
+
+.nav_link{
+  text-decoration: none;
+}
+
+.main{
+  background-color: #fff;
+  height: 80vh;
+  width: 100vw;
+  
+  
+}
