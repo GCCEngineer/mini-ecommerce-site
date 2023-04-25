@@ -1,0 +1,120 @@
+🤘
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ecom by david</title>
+        <!--link-->
+        <link 
+         rel="stylesheet"
+         href="styles.css"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    </head>
+<body>
+    <!---logos and images-->
+      <section id="header">
+           <a href="#"><img src="image/logo.png" height="60" width="60" class="logo"alt=""></a>
+   <div>
+       <ul id="navbar">
+                      <li><a href="index.html">home</a></li>
+                      <li><a href="#">about</a></li>
+                      <li><a href="#">blog</a></li>
+                      <li><a href="#">about us</a></li>
+       </ul>
+   </div>
+      </section>
+<!---product--->
+     <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro">
+                <img src="image/product.png"alt="">
+                <div class="des">
+
+                                 <h5>charger 40W</h5>
+                                 <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                 </div> 
+                                <h4>R280.00</h4>
+                                <button id="add-animation">add to cart</button>
+                </div>            
+            </div>
+        </div>
+     </section>  
+</body>
+</html>
+body{
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background:rgb(255, 255, 255);
+    box-shadow: 0 5px 15px rgb(0, 0, 0,0.06);
+}
+#navbar{
+    display: flex;
+     align-self: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+#navbar li a:hover{
+    color:rgba(214, 17, 17, 0.685);
+    transition: 0.4s ease;
+} 
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;
+    flex-wrap: wrap;
+}
+#product1 .pro{
+    position: absolute;
+        width: 23%;
+        min-width: 250px;
+        padding: 10px 12px;
+        border: 1px solid #cce7d0;
+}
+#product1 .pro img{
+    width: 225px;
+    height: 225px;
+    left: 219px;
+    top: 263px;
+    margin: 15px 0;
+}
+#product1 .pro .des{
+    text-align: start ;
+    padding: 10px 0;
+}  
+#product1 .pro .des h5{
+      padding: 5px;
+      color: rgb(0, 0, 0);
+      font-size: 14px;
+}
+#product1 .pro .des h4 {
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+}
+#product1 .pro .des i {
+    font-size: 12px;
+    color: rgb(168, 126, 36);
+}
+#button{
+    font-family: sans-serif;
+    font-size: 20;
+}
