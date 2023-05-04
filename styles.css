@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header{ 
+    padding: 0 10px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+    .logo{
+        padding: 41px 158px;   
+        transform: scale(0.9); 
+    }
+    .logo:hover{
+        transform: scale(1.0);
+    }
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+    text-align: right;
+}
+
+nav{
+    flex: auto;
+    text-align: right;
+    gap: 1px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 60px;
+    }
+    ul:hover{
+        border-color:  #ff2020;
+        color:  #ff2020;}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0) ;
+}
+
+
+
+
+.table {
+   margin-left: 2px;
+   border-spacing: 150px;
+   padding-left: 100;
+   display:flex;
+   justify-content: center;
+}
+
+.column1{
+       margin: 10px;
+   border-spacing: 150px;
+   padding-left: 100;
+}
+
+.table{
+     margin-right: 0;
+     display: flex;
+     justify-content: center;
+}
+
+.row{
+    margin: 10px;
+    border-spacing: 150px;
+    padding-left: 100;
+}
+.image{
+    width: 350px;
+}
+
+.footer{
+	width: 100%;
+	padding: 20px;
+	background: #ead0d0;
+	margin-top: 50px;
+}
+.heading{
+    padding: 0 220px 0 160px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.heading1{
+	padding-left:7px ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.heading2{
+    padding: right -10px; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wrapper{
+	height: 200px;
+	margin: 0 52px 0 34px;
+	padding: 0 240px 0 140px;
+	border-top: 2px  solid #fff;
+	border-bottom: 2px  solid #000;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.wrapper__list{
+	height: 100%;
+	padding-top: 40px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.wrapper__item{
+	font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.wrapper__item a{
+	text-decoration: none;
+	color: #000;
+}
