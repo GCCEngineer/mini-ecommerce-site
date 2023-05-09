@@ -1,13 +1,20 @@
- 
+.header {
+  background-color: #f5f5f5;
+}
 
-.nav {
- dislay: flex;
- justify-content: center;
- align-items: center;
-  
+.nav_list {
+   
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 10px;
+  list-style: none;
 }
 
 .nav_items {
-  
+   
 }
- 
+
+* {
+ margin: 0;
+}
