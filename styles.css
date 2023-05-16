@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    
+    height: 142px;
+}
+
+.logo{
+    padding: 0%;
+    width: 88px;
+    height: 66px;
+}
+
+.nav_items{
+    display: flex;
+    list-style:none;
+    line-height: 61px;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav_list{
+list-style: none;
+
+}
+
+.nav_links{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    
+}
+  
+.nav_bar a:hover{
+    background-color: #fff;
+    color: #fbff00;
+}
+.container{
+    margin-top: 10px;
+    padding-top: 60px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .card{
+    display: space-around;
+    padding-top: 80px;
+    width: 346px;
+    min-width: 346px;
+    height: 500px;
+    border-radius: 35px;
+    border: solid black 1px;
+    border-inline-color: black;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+   
+   .product-image{
+    width: 225px;
+    min-width: 225px;
+    height: 225px;
+    transition: all 2s ease-in-out;
+   }
+
+   .card-product-name{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+   }
+
+   .card-product-price{
+    margin-top:10px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 22px;
+   }
+   .fa-solid fa-star{
+    color: #fbff00;
+    
+}
+   .card-product-rating{
+    margin-top: 20px;
+    display:flex;
+    width: 200px;
+    align-items: center;
+   }
+
+   .card-product-rating p{
+    margin-left:10px;
+    font-size:12px;
+   }
+
+   .add-to-cart{
+    position: relative;
+    font-weight: 600;
+    margin: 20px auto 10px;
+    width: 242px;
+    height: 66px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+   }
+
+.star {
+    width: 12px;
+    height :12px;
+}
+
+.p1{
+    font-size: 12px;
+}
+
+.button{
+    width: 150px;
+   height: 35px;
+}
