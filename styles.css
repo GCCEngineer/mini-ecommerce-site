@@ -1,0 +1,16 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.nav {
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    padding: 20px;
+    width: 7%;
+    height: 30vh;
+    background-color: aqua;
+}
