@@ -9,9 +9,22 @@ html{
  background: #F5F5F5;
  font-family: 'Inter';
  font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 22px;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 22px;
+}
+
+.header{
+ width: 1440px;
+ padding-top: -6px;
+ height: 142px;
+ background: #FFFFFF;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0,0.25);
+}
+
+.logo{
+  padding-top: calc(50% - 60px/2 - 799.5px);
+  paddding-right: 119px;
 }
 
 .nav {
@@ -19,7 +32,6 @@ line-height: 22px;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  width: 70%;
   background-color: #FFFFFF;
 }
 
@@ -42,19 +54,19 @@ line-height: 22px;
    color: #000;
 }
 
-.container{
+.main{
  margin: auto;
  padding: 50px;
- width: 1200px;
+ width: 12000px;
  heigth: auto;
  background-color: #FFFFFF;
  display: flex;
- flex-wrap: wrap;
  gap: 80px;
  align-items: center;
 }
 
 .card{
+ postion: absolute;
  box-sizing: border-box;
  margin: 21px;
  padding: 50px;
@@ -70,12 +82,13 @@ line-height: 22px;
 
 .card_name{
  margin: 10px;
+ padding: 10px;
  font-size: 20px;
  font-weight: 700;
  line-heigth: 27px;
 }
 
-.reviews{
+.container{
  margin-bottom: 24px;
  display: flex;
  width: 50px;
@@ -92,12 +105,22 @@ line-height: 22px;
  position: abolute;
 }
 
-.card_image{
- color: #fbff00;
+.stars{
+ color: #fbf00;
  display: flex;
- align-items: center;
- width: 30px;
- font-size: 12px;
+ align-items: centre;
+ width: 1px; 
+ height: 26px;
+ justify-content: center;
+ font-size: 17px;
+}
+
+.15 Reviews{
+ position: absolute;
+width: 83px;
+height: 19px;
+left: 365px;
+top: 586px;
 }
 
 .button{
@@ -108,4 +131,3 @@ line-height: 22px;
  height: 69px;
  margin: auto;
 }
-
