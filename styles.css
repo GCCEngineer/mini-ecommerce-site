@@ -1,0 +1,311 @@
+* { 
+ margin: 0 ;
+}
+
+body {
+	width: 1440px;
+	height: 1729px;
+	font-family: 'Inter';
+	background: #FFFFFF;
+}
+
+.header { 
+	height: 142px;
+	background-color: #ffffff;
+	width: 1440px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	padding-left: 50px;
+	/*padding-right: 50px;*/
+ }
+
+ 
+ .image {
+ 	width: 88px;
+ 	height: 60px;
+ 	top: 35px;
+ 	left: 160px;
+ 
+ 	display: flex;
+ }	 
+ 
+.nav {
+ align-items: center;
+ display: flex;
+ padding-right: 50px;
+}	
+
+.nav_list { 
+  list-style: none;
+  display: flex;
+  align-items : center;
+  gap: 45px;
+  align-items: center;
+}
+
+.nav_item {
+	font-size: 21px;
+}
+
+.nav_list :hover{
+	color:#FF2020;
+}
+
+.nav_link {
+	text-decoration: none;
+	color: black;
+}
+
+.row1 {
+	display: flex;
+    align-items: center;
+	justify-content: space-between;
+	width: 1400px;
+	display: flex;
+	padding-top: 30px;
+	margin-top: 10px;
+}
+
+.card1 {
+	box-sizing: border-box;
+	width: 346px;
+	height: 540px;
+	padding-top: 40px;
+	margin-left: 150px;
+
+	border: 1px solid #EAD0D0;
+	border-radius: 33px;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+}
+
+.card2 {
+	box-sizing: border-box;
+
+	padding-top: 40px;
+	width: 346px;
+	height: 540px;
+
+	border: 1px solid #EAD0D0;
+	border-radius: 33px;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+}
+
+.card3 {
+	box-sizing: border-box;
+
+	padding-top: 40px;
+	width: 346px;
+	height: 540px;
+	margin-right: 25px;
+
+	border: 1px solid #EAD0D0;
+	border-radius: 33px;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+}
+
+.row2 {
+	display: flex;
+    align-items: center;
+	width: 1400px;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 40px;
+
+}
+
+.card4 {
+	box-sizing: border-box;
+	margin-left: 25px;
+
+	width: 346px;
+	height: 540px;
+	padding-top: 20px;
+	margin-left: 150px;
+
+	border: 1px solid #EAD0D0;
+	border-radius: 33px;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+}
+
+.card5 {
+	box-sizing: border-box;
+
+	width: 346px;
+	height: 540px;
+	padding-top: 20px;
+
+	border: 1px solid #EAD0D0;
+	border-radius: 33px;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+}
+
+.card6 {
+	box-sizing: border-box;
+
+	width: 346px;
+	height: 540px;
+	padding-top: 20px;
+	margin-right: 25px;
+
+	border: 1px solid #EAD0D0;
+	border-radius: 33px;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
+}
+
+.product {
+	width: 225px;
+	height: 225px;
+
+}
+
+.stars{
+	width: 26px;
+	height: 26px;
+	left: 1110px;
+	top: 1183px;
+}
+
+.button {
+	width: 242px;
+	height: 66px;
+	left: 999px;
+	top: 1248px;
+	
+	background: #D9D9D9;
+	border: 1px solid #D9D9D9;
+	border-radius: 20px;
+}
+
+button:hover{
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+.footer {
+	height: 329px;
+	width: 1440px;
+	background-color: #EAD0D0;
+	
+}
+
+.info1 {
+	height: 60px;
+    padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 250px;
+	padding-left: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	
+	color: #000000;
+
+	border-bottom: 1px solid #FFFFFF;
+}
+
+
+.info2 {
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+	gap: 250px;
+	padding-left: 200px;
+	padding-right: 362px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+
+	color: #000000;
+
+	padding-top: 30px;
+	 border-bottom: 1px solid #000000;
+}
+
+.reviews {
+	width: 83px;
+	height: 19px;
+	padding-left: 50px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #000000;
+}
+
+.div {
+	display: flex;
+}
+
+.sr {
+	display: flex;
+}
+
+.contact {
+	width: 99px;
+	height: 22px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+}
+
+.social{
+	width: 99px;
+	height: 17px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+address{
+	width: 99px;
+	height: 17px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+}
