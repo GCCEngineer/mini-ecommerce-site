@@ -10,14 +10,17 @@ body {
 }
 
 .header { 
-	height: 20vh;
+	height: 142px;
 	background-color: #ffffff;
 	width: 1440px;
-	justify-content: space-between;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	padding-left: 50px;
+	/*padding-right: 50px;*/
  }
 
- 
  
  .image {
  	width: 88px;
@@ -25,25 +28,20 @@ body {
  	top: 35px;
  	left: 160px;
  
- 	margin-left: 30px;
- 	padding-top: 35px;
- 	justify-content: right;
  	display: flex;
- 	align-items: center;
  }	 
  
 .nav {
  align-items: center;
- justify-content: space-between;
- margin-right: 25px;
+ display: flex;
+ padding-right: 50px;
 }	
 
 .nav_list { 
   list-style: none;
   display: flex;
   align-items : center;
-  gap: 15px;
-  justify-content: right;
+  gap: 45px;
   align-items: center;
 }
 
@@ -52,7 +50,7 @@ body {
 }
 
 .nav_list :hover{
-	color: orange;
+	color:#FF2020;
 }
 
 .nav_link {
@@ -220,9 +218,13 @@ button:hover{
 .info1 {
 	height: 60px;
     padding-top: 20px;
-	text-size-adjust: 3px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	gap: 250px;
+	padding-left: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
 
 	font-family: 'Inter';
 	font-style: normal;
@@ -238,10 +240,14 @@ button:hover{
 
 .info2 {
 	height: 200px;
-    padding-top: 60px;
 	display: flex;
 	justify-content: space-between;
-
+	gap: 250px;
+	padding-left: 200px;
+	padding-right: 362px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
@@ -283,6 +289,7 @@ button:hover{
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 22px;
+	display: flex;
 }
 
 .social{
