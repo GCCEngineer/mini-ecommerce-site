@@ -5,7 +5,7 @@
 body {
 	width: 1440px;
 	height: 1729px;
-
+	font-family: 'Inter';
 	background: #FFFFFF;
 }
 
@@ -51,6 +51,10 @@ body {
 	font-size: 21px;
 }
 
+.nav_list :hover{
+	color: orange;
+}
+
 .nav_link {
 	text-decoration: none;
 	color: black;
@@ -62,21 +66,24 @@ body {
 	justify-content: space-between;
 	width: 1400px;
 	display: flex;
+	padding-top: 30px;
+	margin-top: 10px;
 }
 
 .card1 {
 	box-sizing: border-box;
-
 	width: 346px;
 	height: 540px;
 	padding-top: 40px;
-	margin-left: 25px;
+	margin-left: 150px;
 
 	border: 1px solid #EAD0D0;
 	border-radius: 33px;
 
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	display: flex;
 }
 
 .card2 {
@@ -89,7 +96,10 @@ body {
 	border: 1px solid #EAD0D0;
 	border-radius: 33px;
 
-	
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
 }
 
 .card3 {
@@ -103,7 +113,10 @@ body {
 	border: 1px solid #EAD0D0;
 	border-radius: 33px;
 
-	
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
 }
 
 .row2 {
@@ -123,11 +136,15 @@ body {
 	width: 346px;
 	height: 540px;
 	padding-top: 20px;
+	margin-left: 150px;
 
 	border: 1px solid #EAD0D0;
 	border-radius: 33px;
 
-
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
 }
 
 .card5 {
@@ -140,7 +157,10 @@ body {
 	border: 1px solid #EAD0D0;
 	border-radius: 33px;
 
-	
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
 }
 
 .card6 {
@@ -154,7 +174,10 @@ body {
 	border: 1px solid #EAD0D0;
 	border-radius: 33px;
 
-	
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	display: flex;
 }
 
 .product {
@@ -192,21 +215,43 @@ button:hover{
 	width: 1440px;
 	background-color: #EAD0D0;
 	
-	display: flex;
 }
 
 .info1 {
-	margin-left: 130px;
-	height: 10vh;
-    padding-top: 1px;
+	height: 60px;
+    padding-top: 20px;
 	text-size-adjust: 3px;
+	display: flex;
+	justify-content: space-between;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	
+	color: #000000;
+
+	border-bottom: 1px solid #FFFFFF;
 }
 
 
 .info2 {
-	margin-left: 700px;
-	height: 10vh;
-    padding-top: 5px;
+	height: 200px;
+    padding-top: 60px;
+	display: flex;
+	justify-content: space-between;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+
+	color: #000000;
+
+	padding-top: 30px;
+	 border-bottom: 1px solid #000000;
 }
 
 .reviews {
@@ -229,4 +274,31 @@ button:hover{
 
 .sr {
 	display: flex;
+}
+
+.contact {
+	width: 99px;
+	height: 22px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.social{
+	width: 99px;
+	height: 17px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+address{
+	width: 99px;
+	height: 17px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
 }
